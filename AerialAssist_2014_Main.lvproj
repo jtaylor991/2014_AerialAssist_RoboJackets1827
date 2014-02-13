@@ -51,7 +51,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -541,6 +540,13 @@ DirectoryIndex index.htm
 				<Item Name="WPI_ReserveFilterResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_ReserveFilterResource.vi"/>
 				<Item Name="WPI_ERRFilterReserved.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_ERRFilterReserved.vi"/>
 				<Item Name="FPGA_DIOWriteFilterSelect.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteFilterSelect.vi"/>
+				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
+				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetSetRefNum.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
+				<Item Name="WPI_ServoClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoClose.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
