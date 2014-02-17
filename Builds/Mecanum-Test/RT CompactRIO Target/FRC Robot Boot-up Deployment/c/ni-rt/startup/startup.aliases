@@ -1,0 +1,5 @@
+[My Computer]
+My Computer="10.70.5.32"
+
+[RT CompactRIO Target]
+RT CompactRIO Target="localhost"
